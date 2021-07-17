@@ -1,0 +1,14 @@
+#Operator: > Greater than
+#Operator: < Less than
+#Operator: >= Greater than or equal to
+#Operator: < Less than or equal to
+#Operator: == Equal to
+#Operator: != Not Equal to
+#When writing conditions DO NOT FORGET to put the ':' in the end of the if|else|elif lines
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+if height >= 120:
+  print("You can ride the rollercoaster!")
+else:
+  print("Sorry, you'll have to be taller than 120cm to ride")
